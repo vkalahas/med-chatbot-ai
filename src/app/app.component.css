@@ -1,0 +1,39 @@
+.text-message {
+    color: white;
+    background-color: skyblue;
+    padding: 8px 10px;
+    display: block;
+}
+
+.text-message-row {
+    display: block;
+    margin-top: 1em;
+}
+
+
+.card-body {
+    height: 500px;
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.user-message {
+    border-radius: 15px 15px 0 15px;
+}
+
+.response-message {
+    border-radius: 15px 15px 15px 0;
+}
+
+.btn {
+    background-color: skyblue;
+    border-color: skyblue;
+    color: white;
+}
+
+/* messages from user */
+.text-message-row:nth-child(odd) {
+    text-align: right;
+}
